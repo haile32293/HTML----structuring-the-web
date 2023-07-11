@@ -17,5 +17,35 @@
     <!-- how to use html entities to include special characters in our html file-->
 <a href="mozilla.org" target="_blank" title="this is how to demonstrate a double &quot;&quot; in html files "></a>
 
+<!-- white space in html -->
+<p id="noWhitespace">Dogs are silly.</p>
+
+<p id="whitespace">Dogs
+    are
+        silly.</p>
+        <!--Note: Accessing the innerHTML of elements from JavaScript will keep all the whitespace intact. This may return unexpected results if the whitespace is trimmed by the browser. -->
+
+        <script> 
+        
+        const noWhitespace = document.getElementById('noWhitespace').innerHTML;
+
+        console.log(noWhitespace);
+
+        const whitespace = document.getElementById('whitespace').innerHTML;
+
+        console.log(whitespace);
+        // this will display it as it is in the html document
+        </script>
+
+        <!-- how to include special characters in html 
+        
+        to create lessthan ----- &lt;
+        to create greaterthan ---&gt;
+        tocreate a double quot---&quot;
+        to create apostrop ------&apos;
+        to create ampersand ----&amp;
+        
+        -->
+
 </body>
 </html>
