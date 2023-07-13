@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1200px;
+    background-color: gray;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+   
+
+}
+nav  {
+    background-color: rgb(219, 196, 208);
+    overflow: hidden;
+
+}
+nav ul li {
+    float: left;
+    padding: 16px;
+    color:white;
+    list-style-type: none;
+
+
+}
+main{
+    display: flex;
+}
+article{
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+aside{
+    width: 30%;
+    margin: 10px;
+    background-color: white;
+}
+footer{
+    padding: 20px;
+    background-color: aliceblue;
+}
+h2 {
+    text-align: center;
+}
